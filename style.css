@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.container{
+    height: 580px;
+    width: 350px;
+    background-color: #7AB2B2;
+    border: 1px solid black;
+    position: fixed;
+    top: 7rem;
+    left: 30rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.05rem;
+    box-shadow: 0 0 .75rem black;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 4rem;
+    text-align: center;
+    background-color: #E88D67;
+    border-radius: 1.05rem;
+    margin: .5rem;
+    font-size: 1.35rem;
+    box-shadow: 0 0 6px black;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 4.5rem;
+    width: 60%;
+    background-color: #CDE8E5;
+    border-radius: 1.05rem; */
+    margin: .25rem;
+    font-size: 1.35rem;
+}
+.inp{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1.05rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+.bt{
+    margin-top: .2rem;
+    font-size: 1rem;
+    height: 3.3rem;
+    width: 6rem;
+    border-radius: 1.05rem;
+    background-color: #CDE8E5;
+}
+
+.bt:hover{
+    box-shadow: 0 0 2px black;
+}
+.tasks{
+    height: 75%;
+    width: 96%;
+    margin-top: .2rem;
+    margin-left: .4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: #CDE8E5;
+    border-radius: 1rem;
+    overflow: auto;
+}
+.tasks .li{
+    margin-top: .5rem;
+    height:3.5rem;
+    width: 19rem;
+    background-color: #EEF7FF;
+    border-radius: 1.05rem;
+    padding: .5rem;
+    font-size: 2.5rem;
+    text-align: left;
+    box-shadow: 0 0 3px grey;
+    
+}
+
+.li:hover{
+    /* box-shadow: 0 0 4px #CDE8E5; */
+    box-shadow: 0 0 4px black;
+}
+.li .r{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    background-color: red;
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    font-size: 2rem;
+    color: white;
+}
+.r:hover{
+    box-shadow: 0 0 5px red;
+}
+i{
+    font-size: 1.4rem;
+}
+
+.controls{
+    display: flex;
+    flex-direction: row;
+}
+.bt1{
+    background-color: red;
+    width: 3.5rem;
+    margin-left: .2rem;
+    color: white;
+}
+
+
